@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <img src="assets/musicalbg.jpg" class="back-image" alt="Back Image">
+    <h1>Pakistani Songs & OSTs Player</h1></br>
+    <div class="container">
+        <label for="songSelect" style="font-family: georgia; font-size:25px;">Select Your Favourite:</label></br>
+        <select id="songSelect">
+            <option value="">--Select a Song/OST--</option>
+            <option value="assets\music\Beqarar Yeh Dil - Meem Se Mohabbat OST  Singers_ Asim Azhar & Qirat Haider - HUM TV.mp3">Beqarar ye dil- Meem Se Mohabbat OST</option>
+            <option value="assets\music\Bol Kaffara Kya Hoga Sehar Gul Khan 128 Kbps.mp3">Bol kaffara kya hoga</option>
+            <option value="assets\music\Chal-Diye-Tum-Kahan-Pe.mp3">Chal diye tum kahan pe OST</option>
+            <option value="assets\music\Dil Awaiz (PenduJatt.Com.Se).mp3">Dil Awaiz OST</option>
+            <option value="assets\music\Dildara - Azaan Sami Khan_192(Ghantalele.com).mp3">Dildara - Kuch Ankahi</option>
+            <option value="assets\music\Dil Hi Mera Dard Hai - Pakistani Drama ! Tere Bin ! Ost.mp3">Dil hi mera dard hai-Tere Bin OST</option>
+            <option value="assets\music\Dil Wali Gali Mein  Official Song  Sajal Ali & Hamza Sohail   - Umair Ali Akbar & Shreya Basu.mp3">Dil Wali Gali Mein OST</option>
+            <option value="assets\music\Do Bol (Original Sound Track from, Do Bol).mp3">Do Bol OST</option>
+            <option value="assets\music\Ehd e Wafa OST Song Rahat Fateh Ali Khan.mp3">Ehd-e-wafa OST</option>
+            <option value="assets\music\Hari Hari  (Aangan)(KoshalWorld.Com).mp3">Hari hari-Aangan OST</option>
+            <option value="assets\music\Hum Tum OST Song Ali Zafar.mp3">Hum Tum OST</option>
+            <option value="assets\music\humraazi.mp3">Humraazi-Rupoosh</option>
+            <option value="assets\music\Ibadat - Azaan Sami Khan 128 Kbps.mp3">Ibadat</option>
+            <option value="assets\music\Ishq - Lost Found - Faheem Abdullah 128KBPS .mp3">Ishq</option>
+            <option value="assets\music\ishqiya-ost.mp3">Ishq kiya-Ishqiya OST</option>
+            <option value="assets\music\Iqtidar OST (Green TV Entertainment) Mp3 Download Farrukh Mehervi.mp3">Ishq ruave ishq hasave-Iqtidar OST</option>
+            <option value="assets\music\Jaan E Jahan(KoshalWorld.Com).mp3">Jaan E Jahan OST</option>
+            <option value="assets\music\Jhol(KoshalWorld.Com).mp3">Jhol</option>
+            <option value="assets\music\Kaffara (PenduJatt.Com.Se).mp3">Kaffara OST</option>
+            <option value="assets\music\Kahani Suno(PagalWorld.com.se).mp3">Kahani Suno</option>
+            <option value="assets\music\Fairy Tale OST.mp3">Kar ke dil tere hawale -Fairytale OST</option>
+            <option value="assets\music\Khuda Aur Mohabbat (OST)-(Mr-Jat.in).mp3">Khuda Aur Mohabbat OST</option>
+            <option value="assets\music\Koi Chand Rakh Mere Naam Par(KoshalWorld.Com).mp3">Koi chand rakh OST</option>
+            <option value="assets\music\Tere Bin OST (2022)(KoshalWorld.Com).mp3">Kya hoti hai bewafai-Tere Bin OST</option>
+            <option value="assets\music\Khwabeeda - PagalMass.mp3">Khwabeeda</option>
+            <option value="assets\music\Maghron La - (Raag.Fm).mp3">Maghron La</option>
+            <option value="assets\music\10 - Balaa - OST - ARY (ApniISP.Com).mp3">Mann mora lage nahi sawarey- Balaa OST</option>
+            <option value="assets\music\Mein Ost.mp3">Mein OST</option>
+            <option value="assets\music\02 - Mera Yaar Mila De - OST - ARY (ApniISP.Com).mp3">Mera yaar mila de</option>
+            <option value="assets\music\Mere HumSafar OST song(KoshalWorld.Com).mp3">Mere Humsafar OST</option>
+            <option value="assets\music\16 - Meray Pass Tum Ho - OST - ARY (ApniISP.Com).mp3">Mere pass tum ho OST</option>
+            <option value="assets\music\Naghma-e-ishq(zard patton ka bun).mp3">Naghma-e-ishq(zard patton ka bun)</option>
+            <option value="assets\music\O Sahib (PenduJatt.Com.Se).mp3">Oh Sahib- Abdullahpur ka devdas OST</option>
+            <option value="assets\music\Chupke Chupke OST Song Ali Zafar.mp3">Pareshaan kyu laage tu-Chupke Chupke OST</option>
+            <option value="assets\music\Anaa _ OST (Full Song)(KoshalWorld.Com).mp3">Pyaar hai tumse magar-Anaa OST</option>
+            <option value="assets\music\Roiyaan - Farhan Saeed.mp3">Roiyaan</option>
+            <option value="assets\music\ruposh.mp3">Ruposh</option>
+            <option value="assets\music\Sadqay - Djjohal.fm.mp3">Sadqay</option>
+            <option value="assets\music\Suno-Chanda--Original-Soundtrack--Farhan-Saeed.mp3">Suno-Chanda OST</option>
+            <option value="assets\music\Tanaa Banaa  OST  Lyrical Video  Digitally Presented By OPPO  HUM TV  Drama.mp3">Tanaa Banaa  OST</option>
+            <option value="assets\music\Tera Mera Hai Pyar Amar (Ishq Murshid)-(Mr-Jat.in).mp3">Tera mera hai pyaar amar-Ishq Murshid OST</option>
+            <option value="assets\music\Teri Aarzu(Zard patton ka bun).mp3">Teri Aarzu-Zard patton ka bun OST</option>
+            <option value="assets\music\Ye Dil Mera OST Song Shiraz Uppal.mp3">Tip tip ye aansu-Ye Dil Mera OST</option>
+            <option value="assets\music\Tu Hai Kahan-(Mr-Jat.in).mp3">Tu Hai Kahan</option>
+            <option value="assets\music\Tu ibtida h(mohabbat gumshuda).mp3">Tu ibtida hai-Mohabbat gumshuda OST</option>
+            <option value="assets\music\Wishes - (Raag.Fm).mp3">Wishes</option>
+            <option value="assets\music\19 - Wo Humsafar Tha - OST - HumTV (ApniISP.Com).mp3">Wo humsafar tha OST</option>
+            <option value="assets\music\Fitoor OST Song Shani Arshad.mp3">Wo mila kyu tha-Fitoor OST</option>
+            <option value="assets\music\Yakeen Ka Safar OST Song Hadiqa Kiyani.mp3">Yakeen ka safar OST</option>
+            <option value="assets\music\zindagi+awargi+hai+jhoom.mp3">Zindagi awargi hai- Jhoom OST</option>
+        </select>
+    </div>
+    <div>    
+        <audio id="audio" controls></audio>
+    </div> 
+    <div>
+       <button id="playButton">Play</button>
+       <button id="pauseButton">Pause</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
